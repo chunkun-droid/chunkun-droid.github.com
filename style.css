@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #3949ab;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+    
+}
+
+header > h1 {
+    display: inline-block;
+    width: 400px;
+    font-weight: 700;
+
+}
+
+ header > p {
+    display: inline-block;
+    width: 400px;
+    font-weight: 200;
+}
+.summary{
+    background-color: #f06292;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container-center{
+    width: 960px;
+    height: 200px;
+    /*Nuestro elemento se centra apropiadamente con los proximos dos atributos*/
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.Education {
+    width: 68%;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile_img {
+    display: inline;
+    width: 30%;
+}
+.profile_img img {
+    width: 300px;
+    margin-top: 25px;
+}
+h3 {
+    font-size: 36px; font-weight: 700;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.list a:visited {
+    color: #f06292;
+}
+
+dt {
+    font-size:22px ;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-top: 36px;
+}
+
+dd {
+    margin: 0;
+}
+
+.list ul {
+    
+    margin-top: -20px;
+    padding: 0;
+}
+
+.list  li {
+    margin-top: 10px;
+    margin-right: 0;
+    
+}
